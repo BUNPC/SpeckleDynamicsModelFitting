@@ -10,7 +10,7 @@ To run the code:
 
 After you run the demo.m provided, the analytical spatial and temporal g_2 and K with single dynamics are generated and the fitting results based on the anayltical data are demostrated as:
 
-![Alt text](C:\PROJ-iDLSCI\theories\thoery manuscript\code\SpeckleDynamicsModelFitting\g2fitting.png)
+![Alt text](g2fitting.png)
 
-![Alt text](C:\PROJ-iDLSCI\theories\thoery manuscript\code\SpeckleDynamicsModelFitting\Contrastfitting.png)
+![Alt text](Contrastfitting.png)
   
