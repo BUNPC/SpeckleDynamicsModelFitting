@@ -10,9 +10,9 @@
 %         fittingresults.R: R^2 score fitting accuracy 
 % Example: fittingresults = pixelfitg2(tauaxis, g2, 't')
 %
-% Note:1) this function is based on g1 model exp(-tau/tauC)^n with n=1; 
+% Note:1) this function is based on g1 model exp(-(tau/tauC)^n) with n=1; 
 %         For n=0.5 or 2, one can directly modify on 'fun', for example: case 't' with n=0.5, 
-%         fun = fittype(('1+beta*(rho^2*exp[(-tau/tauC)^0.5]^2+2*rho*(1-rho)*exp[(-tau/tauC)^0.5])'),'indep','tau');
+%         fun = fittype(('1+beta*(rho^2*exp(-(tau/tauC)^0.5)^2+2*rho*(1-rho)*exp(-(tau/tauC)^0.5))'),'indep','tau');
 %      2) To fix any parameter in [beta rho tauC] for fitting, 
 %         one can set the upper and lower boundary the same, 
 %         for example: fix beta=0.5, lb = [0.5 0 10e-3], ub = [0.5 1 20].
