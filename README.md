@@ -14,3 +14,6 @@ After you run the demo.m provided, the analytical spatial and temporal g_2 and K
 
 ![Alt text](Contrastfitting.png)
   
+For any issue reporting or suggestions, please contact Bingxue Liu, bliu97@bu.edu
+
+Updated 10/12/2023
